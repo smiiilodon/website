@@ -6,7 +6,11 @@
     <title>Home of the 'don</title>
 
     <font size="12"><p>Smilodon Smiles!<p></font>
-    <a href="SmilodonFiles/">Files</a>
-    <br><br>
-    <a href="HippleConstruction/index.html">Hipple Construction</a>
+    <font size="4">
+        <a href="FamilyPhotos/">Family Photos</a>
+        <br><br>
+        <a href="SmilodonFiles/">Files</a>
+        <br><br>
+        <a href="HippleConstruction/index.html">Hipple Construction</a>
+    </font>
 </html>
