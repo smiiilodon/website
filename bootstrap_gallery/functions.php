@@ -25,11 +25,11 @@ function genThumb($photo, $thumbnails) {
 }
 
 function genAllThumbs($photos) {
-    $thumbnails = glob('.thumb.*.jpg');
+    $thumbnails = glob('.thumb.*.[Jj][Pp][Gg]');
     foreach($photos as $photo) {
         genThumb($photo, $thumbnails);
     }
-    $thumbnails = glob('.thumb.*.jpg');
+    $thumbnails = glob('.thumb.*.[Jj][Pp][Gg]');
     return $thumbnails;
 }
 
@@ -42,7 +42,7 @@ EOM;
 }
 
 function addThumbsToGallery() {
-    $photos = glob('*.jpg');
+    $photos = glob('*.[Jj][Pp][Gg]');
     $thumbnails = genAllThumbs($photos);
     foreach($photos as $photo) {
         addPhotoWithThumb($photo, ".thumb." . $photo);
