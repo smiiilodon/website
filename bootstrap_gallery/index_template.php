@@ -20,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><li><a href="http://smilodons.org/FamilyPhotos">Smilodon Photos</a></li>
+            <a class="navbar-brand"><li><a href="http://smilodons.org/photos">Smilodon Photos</a></li>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">

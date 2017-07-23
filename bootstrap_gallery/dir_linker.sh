@@ -4,10 +4,10 @@
 shopt -s nocaseglob
 
 symlink_dir() {
-    ln -fs /home/smilodon/public_html/bootstrap_gallery/img img
-    ln -fs /home/smilodon/public_html/bootstrap_gallery/css css
-    ln -fs /home/smilodon/public_html/bootstrap_gallery/js js
-    ln -fs /home/smilodon/public_html/bootstrap_gallery/index_template.php index.php
+    ln -fs /data/www/bootstrap_gallery/img img
+    ln -fs /data/www/bootstrap_gallery/css css
+    ln -fs /data/www/bootstrap_gallery/js js
+    ln -fs /data/www/bootstrap_gallery/index_template.php index.php
 }
 
 has_photos() {
